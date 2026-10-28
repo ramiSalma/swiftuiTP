@@ -9,6 +9,7 @@ import Foundation
 
 struct PeopleService  {
     
+    
     func fetchPeople() async throws -> [Person] {
         
         let url = URL(
@@ -32,4 +33,6 @@ struct PeopleService  {
         
         return people
     }
+    
+    
 }

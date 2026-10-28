@@ -199,6 +199,8 @@ struct PeopleView: View {
             errorMessage = "Failed to load people. Please try again."
         }
     }
+    
+    
 }
 
 #Preview {
